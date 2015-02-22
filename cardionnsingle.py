@@ -85,4 +85,4 @@ print ("Output of network: ", net.activate((-1369,-1429,-1427,-1172,-846,-752,-7
 
 
 
-print 'It took ', datetime.now() - startTime, 'seconds and ', ITERATIONS, 'iteration(s) to train and confirm heart model.'
+print('It took ', datetime.now() - startTime, 'seconds and ', ITERATIONS, 'iteration(s) to train and confirm heart model.')

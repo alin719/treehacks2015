@@ -1,1 +1,1 @@
-alkfjhslkgsdklfjsdns
+print('Hello world!')
