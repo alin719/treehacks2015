@@ -8,7 +8,7 @@ import numpy as np
 from datetime import datetime
 startTime = datetime.now()
 
-ITERATIONS = 20
+ITERATIONS = 10
 START_SLICE = 0
 EVT_START = 72500
 EVT_END = 75000
@@ -42,7 +42,7 @@ def addParametersFromData(trainingData, sliceStart, sliceEnd, outputParam):
 
 		window.append(data)
 		
-		if counter < WINDOW_SIZE:
+		if counter < WINDOW_SIZE - 1:
 			counter = counter + 1
 		else:
 			ds.addSample(np.array(window), (outputParam,))
